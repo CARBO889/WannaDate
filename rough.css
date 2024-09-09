@@ -1,0 +1,56 @@
+*{
+    box-sizing:border-box;
+    padding:0px;
+    margin:0px;
+}
+.love{
+    background-image:url("https://c0.wallpaperflare.com/preview/394/177/139/couple-teddy-cute-love-bear.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;  /* Horizontally centers the content */
+    flex-direction:column;  /* vertically centers the content */
+    text-align:center;
+    height:100vh;
+    color:red;
+    font-size:30px;
+}
+.date{
+    border:2px solid rgb(11, 85, 21);
+    border-radius:60px;
+    padding:10px;
+    background-color:rgb(141, 186, 186);
+    box-shadow:6px 6px 6px rgba(169, 163, 184, 1);
+}
+#yes{
+    border-radius:20px;
+    width:60px;
+    height:30px;
+    border:2px solid rgb(183, 211, 70);
+    background-color:rgb(183, 211, 70);
+    box-shadow: 0px 2px 10px rgba(201, 32, 32, 1); 
+}
+#yes:hover{
+    background-color:rgb(202, 246, 202);
+    border-color:rgb(202,246,202);
+    height:30px;
+    width:80px;
+    transition:1s ease;
+    box-shadow: 0px 2px 10px rgb(3, 226, 96);
+}
+#yes:active{
+    height:20px;
+    width:60px;
+    transition:0.5s ease;
+}
+#no{
+    border-radius:5px;
+    background-color:rgb(189, 180, 226);
+    height:30px;
+    width:50px;
+    outline:none;
+    border:1px rgb(37, 4, 101) solid;
+    box-shadow: 2px 2px 2px 2px rgba(77, 22, 214, 0.9);
+}
